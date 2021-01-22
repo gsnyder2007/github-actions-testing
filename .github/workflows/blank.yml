@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run Synopsys Detect
-        run: bash <(curl -s -L https://detect.synopsys.com/detect.sh) --detect.parallel.processors=-1 --blackduck.url=https://ec2-18-217-189-8.us-east-2.compute.amazonaws.com --blackduck.trust.cert=true --blackduck.api.token=NjJhYjMzMTEtMGQwZS00ODk4LWE2OTgtN2U5NGQ4MzgwZDkzOjM3MzU2MzU3LTkzZTctNDNjYS04NWQyLTNmODhiNmU1YjVjNw==
+        run: bash <(curl -s -L https://detect.synopsys.com/detect.sh) --detect.parallel.processors=-1 --blackduck.url=https://ec2-18-217-189-8.us-east-2.compute.amazonaws.com --blackduck.trust.cert=true --blackduck.api.token=NjJhYjMzMTEtMGQwZS00ODk4LWE2OTgtN2U5NGQ4MzgwZDkzOjM3MzU2MzU3LTkzZTctNDNjYS04NWQyLTNmODhiNmU1YjVjNw== --detect.detector.search.depth=10
 
       # Runs a set of commands using the runners shell
       # - name: Run a multi-line script

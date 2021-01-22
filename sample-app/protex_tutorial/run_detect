@@ -1,0 +1,6 @@
+#!/bin/bash
+
+detect --blackduck.url=https://poc31.blackduck.synopsys.com \
+	--blackduck.trust.cert=true \
+	--blackduck.api.token=ZDZkYWMyZDAtYWJkNS00ZmNhLWE2MWMtMDRkNDdlNDc3M2NkOmMxYzkwYzA4LTdiZWMtNGY2Ni04Y2M2LWQ0YTcyOTlmZWQ1MQ==
+	$*
